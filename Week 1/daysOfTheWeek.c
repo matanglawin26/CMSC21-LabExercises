@@ -18,7 +18,7 @@ int main(){
     char days[7][10] = {"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};
 
     do{
-        printf("Enter Valid Date: ");
+        // printf("Enter Valid Date: ");
         scanf("%d %d %d",&time.year,&time.month,&time.day);
     }while(time.year < 0 || (time.month < 0 || time.month > 12) || (time.day < 0 || time.day > 31));
 
