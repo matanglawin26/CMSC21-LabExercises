@@ -31,7 +31,7 @@ int main(){
 int countCells(int x,int y,int n, int m,int mat[n][m]){   
 
     if(x<0 || y<0 || x>=n || y>=m)
-		return 0;
+	return 0;
     
     if(mat[x][y] == 0)
         return 0;
