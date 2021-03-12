@@ -1,3 +1,7 @@
+/*
+	Exercise #4: Object Counting
+	Date completed: 03/08/2021
+*/
 #include <stdio.h>
 
 int countCells(int row,int col,int x, int y,int mat[row][col]);
