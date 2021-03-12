@@ -1,3 +1,7 @@
+/*
+    Exercise #5: Sorting
+    Date completed: 03/08/2021
+*/
 #include <stdio.h>
 
 void sort(int *arr,int n);
