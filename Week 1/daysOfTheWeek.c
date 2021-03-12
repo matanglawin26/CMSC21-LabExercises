@@ -1,3 +1,7 @@
+/*
+    Exercise #3: Day of the Week
+    Date completed: 03/02/2021
+*/
 #include <stdio.h>
 
 int isLeapYear(int y);
