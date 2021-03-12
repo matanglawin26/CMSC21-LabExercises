@@ -1,2 +1,2 @@
 # CMSC21-LabExercises
-Lab
+Lab - compliance level
