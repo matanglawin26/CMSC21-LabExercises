@@ -1,3 +1,8 @@
+/*
+    Exercise #3: Tic Tac Toe
+    Date completed: 03/02/2021
+*/
+
 #include <stdio.h>
 
 int score(char a[5][11],int posX[],int posY[]);
