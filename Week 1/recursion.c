@@ -1,3 +1,7 @@
+/*
+    Exercise #2: Recursion
+    Date completed: 03/02/2021
+*/
 #include <stdio.h>
 
 int div(int a,int b);
