@@ -146,10 +146,6 @@ int main(){
     return 0;
 }
 
-void configure(char **bPtr){
-    
-}
-
 void printBoard(char **bPtr){    
     // prints the board
     for(int i=0;i<N;i++){
