@@ -10,9 +10,10 @@ typedef struct{
     int numerator, denominator,whole;
 } frac;
 
-frac toFrac();
 void getLCD(frac *f1,frac *f2);
 int gcd(frac f);
+int abs(int x);
+frac toFrac();
 frac add(frac f1,frac f2);
 frac subtract(frac f1,frac f2);
 frac multiply(frac f1,frac f2);
@@ -25,13 +26,13 @@ int main(){
 
     do{
         scanf("%d",&n);
-    }while(n<1||n>5);
     
-    f1 = toFrac();
+        f1 = toFrac();
 
-    if(n>=1 && n<5){
-        f2 = toFrac();
-    }
+        if(n!=5)
+            f2 = toFrac();
+        
+    }while(n<1||n>5);
 
     switch(n){
         case 1:
@@ -53,17 +54,11 @@ int main(){
             break;
     }
 
-    switch (out.whole){
-        case 1:
-            printf("1\n");
-            break;
-        case 2:
-            printf("%d\n",out.numerator);
-            break;
-        default:
-            printf("%d/%d\n",out.numerator,out.denominator);
-            break;
-    }
+    if(out.whole)
+        printf("%d\n",out.numerator);     
+    else
+        printf("%d/%d\n",out.numerator,out.denominator);
+    
     
     return 0;
 }
@@ -135,7 +130,7 @@ frac simplify(frac f){
         f.denominator*=-1;
     }else if(f.numerator == 0){
         f.numerator = 0;
-        f.whole = 2;
+        f.whole = 1; 
         return f;
     }
 
@@ -143,15 +138,17 @@ frac simplify(frac f){
         out.numerator = f.numerator/div;
         out.denominator = f.denominator/div;
 
-        if(out.numerator==out.denominator)
+        if(out.numerator==out.denominator){
             out.whole = 1;
+            out.numerator = 1;
+        }
         if(out.denominator==1)
-            out.whole = 2;
+            out.whole = 1; 
             
         return out;
     }else{        
         if(f.denominator==1)
-            f.whole = 2;
+            f.whole = 1; 
         else 
             f.whole = 0;
     }
@@ -174,8 +171,8 @@ frac toFrac(){
     frac result;
     char st[16],tempStr[16];
     int size, countN = 0,countD = 0,flag = 1, i; 
-
-    scanf("%s",&st);
+    
+    scanf("%s",st);
 
     size = strlen(st);    
 
@@ -225,6 +222,6 @@ int gcd(frac f){
 }
 int abs(int x){
     if(x<0)
-        return -1*x;
+        return -x;
     return x;
 }
