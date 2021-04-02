@@ -1,3 +1,7 @@
+/*
+    Exercise #7: Fractions
+    Date completed: 03/28/2021
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
