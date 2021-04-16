@@ -1,3 +1,8 @@
+/*
+    Exercise #9: Student Information System
+    Date completed: 04/16/2021
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
