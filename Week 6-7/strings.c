@@ -1,3 +1,7 @@
+/*
+    Exercise #8: Strings
+    Date completed: 04/5/2021
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
