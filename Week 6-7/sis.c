@@ -45,8 +45,6 @@ char toUpper(char ch);
 
 int main(){
     int n;
-    myNode *node = NULL;
-    myNode *new;
     SLList list;
     
     initList(&list);
