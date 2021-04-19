@@ -1,3 +1,8 @@
+/*
+    Exercise #10: Zodiac Signs
+    Date completed: 04/18/2021
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #define N 200
