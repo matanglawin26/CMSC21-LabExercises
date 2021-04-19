@@ -11,7 +11,7 @@ typedef struct{
     int year, month, day, index;
 } Birthday;
 
-int duplicate(int n,int idx, int *trackArr);
+int duplicate(int n,int idx, int trackArr[]);
 
 int main(){    
     Birthday date;
