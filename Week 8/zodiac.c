@@ -6,7 +6,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define N 200
-#define M 10
 
 typedef struct{
     int year, month, day, index;
