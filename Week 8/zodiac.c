@@ -19,7 +19,7 @@ int main(){
     FILE* fpData;
     FILE* fpIn = fopen("data.in", "r");
 
-    int i = 0,idx = 0,size = 5;
+    int i,idx = 0,size = 5;
     char strF[N];
 
     int *trackArr = (int*)malloc(sizeof(int)*size);
