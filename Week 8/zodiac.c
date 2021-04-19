@@ -145,7 +145,6 @@ int main(){
                 break;        
             default:
                 printf("Please enter a valid month!\n");
-                date.index = -1;
                 break;
         }       
         
