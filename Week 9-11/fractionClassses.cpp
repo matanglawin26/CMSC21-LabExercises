@@ -1,3 +1,8 @@
+/*
+    Exercise #13: Rectangle Plot
+    Date completed: 05/01/2021
+*/
+
 #include <iostream>
 #include <stdlib.h>
 
