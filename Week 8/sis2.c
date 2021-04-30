@@ -1,3 +1,7 @@
+/*
+    Exercise #11: Student Information 2
+    Date completed: 04/30/2021
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
