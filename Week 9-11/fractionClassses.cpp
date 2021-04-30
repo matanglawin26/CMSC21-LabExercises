@@ -1,5 +1,5 @@
 /*
-    Exercise #13: Rectangle Plot
+    Exercise #12: Fraction Classes
     Date completed: 05/01/2021
 */
 
