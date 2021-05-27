@@ -1,3 +1,8 @@
+/*
+    Exercise #14: Package cost
+    Date completed: 05/25/2021
+*/
+
 #include <iostream>
 #include <iomanip>
 
